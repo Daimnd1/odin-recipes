@@ -28,13 +28,16 @@ body {
   border-left: 8px solid #ff9248;
   border-right: 8px solid #ff9248;
   height: auto;
+  border-radius: 10px;
 }
 
 .section-title {
   color: #f95700;
   font-size: 40px;
   padding: 16px;
-  margin-left: 16px;
+  margin: 33px 16px;
+  border-left: 6px solid #f95700;
+  border-bottom: 6px solid #f95700;
 }
 
 .recipe-list {
@@ -45,8 +48,10 @@ body {
 
 .recipe-list li {
   background-color: #ffc09f;
-  margin: 8px 0;
+  margin: 16px 0;
   height: 180px;
+  box-shadow: 5px 5px 0px  rgb(131, 75, 38);
+  border-radius: 10px;
 }
 
 .recipe-list a {
@@ -55,10 +60,15 @@ body {
   height: 100%;
 }
 
-.recipe-list p {
+.recipe-list div {
   display: inline-block;
-  padding: 0 24px;
+  width: 500px;
+  padding: 24px;
+  padding-bottom: 66px;
   color: black;
+  margin-left: 16px;
+  background-color: rgba(245, 206, 185, 0.753);
+  box-shadow: 5px 5px 5px rgb(131, 75, 38);
 }
 
 .recipe-list a img {
@@ -67,13 +77,15 @@ body {
   height: 160px;
   width: auto;
   margin-right: 16px;
-  margin-top: 10px;
+  box-shadow: 5px 5px 5px rgb(131, 75, 38);
 }
 
 .recipe-list samp {
+  color: #cc5200;
   display: block;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 16px;
 }
 
 
